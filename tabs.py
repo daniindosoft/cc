@@ -536,7 +536,7 @@ class MyTableWidget(QWidget):
             self.matrixCol = ix.column()
         # for ix in deselected.indexes():
         #     print('Deselected Cell Location Row: {0}, Column: {1}'.format(ix.row(), ix.column()))
-        # print('-------')
+        
 
 
 if __name__ == '__main__':
