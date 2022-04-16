@@ -4,7 +4,7 @@ import folium # pip install folium
 import csv
 
 from PyQt5 import QtWidgets, QtCore
-from PyQt5.QtWidgets import QPushButton, QMainWindow, QWidget, QApplication, QVBoxLayout, QTabWidget, QTableWidget, QGridLayout, QLabel, QLineEdit, QListWidget, QListWidgetItem
+from PyQt5.QtWidgets import QPushButton, QMainWindow, QWidget, QApplication, QVBoxLayout, QTabWidget, QTableWidget, QGridLayout, QLabel, QLineEdit, QListWidget, QListWidgetItem, QMessageBox
 from PyQt5.QtWebEngineWidgets import QWebEngineView # pip install PyQtWebEngine
 from PyQt5 import QtGui
 from PyQt5.QtGui import QIcon, QPixmap, QFont
@@ -523,6 +523,7 @@ class MyTableWidget(QWidget):
             self.tableWidget.setItem(tindex,7, QtWidgets.QTableWidgetItem(row[8]))
             self.tableWidget.setItem(tindex,8, QtWidgets.QTableWidgetItem(row[9]))
             self.tableWidget.setItem(tindex,9, QtWidgets.QTableWidgetItem(row[10]))
+            self.tableWidget.setItem(tindex,10, QtWidgets.QTableWidgetItem(row[11]))
             # self.tableWidget.setCellWidget(tindex, 3, btn)
             # print(tindex," - ", row[1]," - ", row[2]," - ", row[3])
             tindex+=1
