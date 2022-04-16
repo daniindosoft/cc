@@ -4,7 +4,7 @@ import folium # pip install folium
 import csv
 
 from PyQt5 import QtWidgets, QtCore
-from PyQt5.QtWidgets import QPushButton, QMainWindow, QWidget, QApplication, QVBoxLayout, QTabWidget, QTableWidget, QGridLayout, QLabel, QLineEdit, QListWidget, QListWidgetItem
+from PyQt5.QtWidgets import *
 from PyQt5.QtWebEngineWidgets import QWebEngineView # pip install PyQtWebEngine
 from PyQt5 import QtGui
 from PyQt5.QtGui import QIcon, QPixmap, QFont
